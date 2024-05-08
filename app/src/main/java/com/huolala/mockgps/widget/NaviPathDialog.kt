@@ -3,7 +3,12 @@ package com.huolala.mockgps.widget
 import android.app.Dialog
 import android.content.Context
 import android.text.TextUtils
-import android.view.*
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.view.Window
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
 import androidx.databinding.DataBindingUtil

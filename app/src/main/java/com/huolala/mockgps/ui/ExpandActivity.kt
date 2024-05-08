@@ -1,14 +1,8 @@
 package com.huolala.mockgps.ui
 
-import android.app.Dialog
 import android.content.Intent
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.blankj.utilcode.util.ClickUtils
-import com.blankj.utilcode.util.ConvertUtils
 import com.castiel.common.base.BaseActivity
 import com.castiel.common.base.BaseListAdapter
 import com.castiel.common.base.BaseViewModel
@@ -16,7 +10,6 @@ import com.castiel.common.decoration.VerticalItemDecoration
 import com.huolala.mockgps.R
 import com.huolala.mockgps.adaper.ExpandAdapter
 import com.huolala.mockgps.databinding.ActivityExpandBinding
-import com.huolala.mockgps.databinding.DialogHintBinding
 import com.huolala.mockgps.model.ExpandModel
 import com.huolala.mockgps.widget.HintDialog
 

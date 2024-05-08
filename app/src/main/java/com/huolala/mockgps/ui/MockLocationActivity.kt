@@ -2,10 +2,11 @@ package com.huolala.mockgps.ui
 
 import android.content.Intent
 import android.graphics.Rect
-import android.os.*
+import android.os.Bundle
+import android.os.Parcelable
 import android.view.View
 import android.widget.Toast
-import com.baidu.mapapi.map.*
+import com.baidu.mapapi.map.BaiduMap
 import com.blankj.utilcode.util.ClickUtils
 import com.blankj.utilcode.util.ConvertUtils
 import com.castiel.common.base.BaseActivity
@@ -14,13 +15,14 @@ import com.huolala.mockgps.R
 import com.huolala.mockgps.databinding.ActivityNaviBinding
 import com.huolala.mockgps.manager.FollowMode
 import com.huolala.mockgps.manager.MapLocationManager
-import com.huolala.mockgps.manager.utils.MapDrawUtils
 import com.huolala.mockgps.manager.SearchManager
+import com.huolala.mockgps.manager.utils.MapDrawUtils
 import com.huolala.mockgps.model.MockMessageModel
 import com.huolala.mockgps.model.NaviType
 import com.huolala.mockgps.server.GpsService
 import com.huolala.mockgps.utils.Utils
-import kotlinx.android.synthetic.main.activity_navi.*
+import kotlinx.android.synthetic.main.activity_navi.iv_back
+import kotlinx.android.synthetic.main.activity_navi.mapview
 
 
 /**

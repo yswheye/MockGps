@@ -15,10 +15,10 @@ import com.huolala.mockgps.databinding.ActivityFileBinding
 import com.huolala.mockgps.manager.SearchManager
 import com.huolala.mockgps.model.MockMessageModel
 import com.huolala.mockgps.model.NaviType
-import com.huolala.mockgps.utils.WarnDialogUtils
 import com.huolala.mockgps.utils.LocationUtils
 import com.huolala.mockgps.utils.MMKVUtils
 import com.huolala.mockgps.utils.Utils
+import com.huolala.mockgps.utils.WarnDialogUtils
 import com.huolala.mockgps.widget.HintDialog
 import com.huolala.mockgps.widget.NaviPathDialog
 import com.huolala.mockgps.widget.NaviPopupWindow

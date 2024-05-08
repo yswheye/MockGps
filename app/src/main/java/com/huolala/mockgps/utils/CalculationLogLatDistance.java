@@ -1,5 +1,7 @@
 package com.huolala.mockgps.utils;
 
+import com.baidu.mapapi.model.LatLng;
+
 import static java.lang.Math.abs;
 import static java.lang.Math.asin;
 import static java.lang.Math.atan2;
@@ -8,8 +10,6 @@ import static java.lang.Math.pow;
 import static java.lang.Math.sin;
 import static java.lang.Math.sqrt;
 import static java.lang.Math.tan;
-
-import com.baidu.mapapi.model.LatLng;
 
 /**
  * @author jiayu.liu

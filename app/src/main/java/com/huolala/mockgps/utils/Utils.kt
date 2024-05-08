@@ -3,20 +3,15 @@ package com.huolala.mockgps.utils
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.location.LocationProvider
-
 import android.location.Criteria
-
 import android.location.LocationManager
+import android.location.LocationProvider
 import android.net.Uri
-
 import android.os.Build
 import android.provider.Settings
 import com.baidu.mapapi.model.LatLng
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
-import java.lang.IllegalArgumentException
-import kotlin.collections.ArrayList
 
 
 /**

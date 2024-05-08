@@ -26,9 +26,24 @@ import com.huolala.mockgps.utils.CalculationLogLatDistance
 import com.huolala.mockgps.utils.HandlerUtils
 import com.huolala.mockgps.utils.MMKVUtils
 import com.huolala.mockgps.widget.RockerView
-import kotlinx.android.synthetic.main.layout_floating.view.*
-import kotlinx.android.synthetic.main.layout_floating_location_adjust.view.*
-import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.*
+import kotlinx.android.synthetic.main.layout_floating.view.card
+import kotlinx.android.synthetic.main.layout_floating.view.info
+import kotlinx.android.synthetic.main.layout_floating.view.info_guideline
+import kotlinx.android.synthetic.main.layout_floating.view.iv_adjust
+import kotlinx.android.synthetic.main.layout_floating.view.iv_rest
+import kotlinx.android.synthetic.main.layout_floating.view.iv_setting
+import kotlinx.android.synthetic.main.layout_floating.view.mapview
+import kotlinx.android.synthetic.main.layout_floating.view.startAndPause
+import kotlinx.android.synthetic.main.layout_floating_location_adjust.view.iv_close
+import kotlinx.android.synthetic.main.layout_floating_location_adjust.view.rocker_view
+import kotlinx.android.synthetic.main.layout_floating_location_adjust.view.speed_view
+import kotlinx.android.synthetic.main.layout_floating_location_adjust.view.tv_info
+import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.btn_change_location
+import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.btn_nav_change
+import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.iv_nav_close
+import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.road_nav_view
+import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.speed_nav_view
+import kotlinx.android.synthetic.main.layout_floating_navi_adjust.view.tv_nav_info
 import okhttp3.internal.format
 
 /**

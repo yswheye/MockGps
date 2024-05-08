@@ -5,14 +5,11 @@ import android.content.Context
 import android.text.TextUtils
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.RadioButton
-import androidx.core.view.children
 import androidx.databinding.DataBindingUtil
 import com.blankj.utilcode.util.ClickUtils
 import com.blankj.utilcode.util.ConvertUtils
 import com.blankj.utilcode.util.ScreenUtils
 import com.huolala.mockgps.R
-import com.huolala.mockgps.databinding.DialogHintBinding
 import com.huolala.mockgps.databinding.DialogPointTypeBinding
 import com.huolala.mockgps.utils.LocationUtils
 

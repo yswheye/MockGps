@@ -1,6 +1,5 @@
 package com.huolala.mockgps.manager.utils
 
-import android.R
 import android.graphics.Rect
 import android.text.TextUtils
 import com.baidu.mapapi.map.BaiduMap

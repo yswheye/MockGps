@@ -17,7 +17,9 @@ import com.castiel.common.dialog.BaseDialog
 import com.huolala.mockgps.R
 import com.huolala.mockgps.manager.utils.MapConvertUtils
 import com.huolala.mockgps.manager.utils.MapDrawUtils
-import kotlinx.android.synthetic.main.dialog_select_navi_map.*
+import kotlinx.android.synthetic.main.dialog_select_navi_map.btn_change
+import kotlinx.android.synthetic.main.dialog_select_navi_map.btn_select
+import kotlinx.android.synthetic.main.dialog_select_navi_map.texture_mapview
 
 /**
  * @author jiayu.liu

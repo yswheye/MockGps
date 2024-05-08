@@ -6,9 +6,15 @@ import android.text.TextUtils
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.widget.AppCompatTextView
-import com.baidu.mapapi.map.*
-import com.baidu.mapapi.search.route.*
-import com.blankj.utilcode.util.*
+import com.baidu.mapapi.map.BaiduMap
+import com.baidu.mapapi.map.MapStatusUpdateFactory
+import com.baidu.mapapi.search.route.DrivingRouteLine
+import com.baidu.mapapi.search.route.PlanNode
+import com.blankj.utilcode.util.ClickUtils
+import com.blankj.utilcode.util.ConvertUtils
+import com.blankj.utilcode.util.FileIOUtils
+import com.blankj.utilcode.util.FileUtils
+import com.blankj.utilcode.util.ToastUtils
 import com.castiel.common.base.BaseActivity
 import com.castiel.common.base.BaseViewModel
 import com.huolala.mockgps.R
@@ -21,7 +27,6 @@ import com.huolala.mockgps.manager.utils.MapDrawUtils
 import com.huolala.mockgps.model.PoiInfoModel
 import com.huolala.mockgps.model.PoiInfoType
 import java.io.File
-import kotlin.collections.ArrayList
 
 
 /**

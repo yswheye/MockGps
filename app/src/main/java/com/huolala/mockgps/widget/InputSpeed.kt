@@ -12,7 +12,6 @@ import com.blankj.utilcode.util.ToastUtils
 import com.huolala.mockgps.R
 import com.huolala.mockgps.databinding.DialogInputSpeedBinding
 import com.huolala.mockgps.utils.MMKVUtils
-import kotlinx.android.synthetic.main.dialog_input_speed.view.*
 
 /**
  * @author jiayu.liu

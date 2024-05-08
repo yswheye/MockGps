@@ -3,7 +3,6 @@ package com.huolala.mockgps
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.graphics.Rect
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
@@ -12,8 +11,6 @@ import com.baidu.mapapi.search.route.DrivingRouteLine
 import com.blankj.utilcode.util.LogUtils
 import com.blankj.utilcode.util.ToastUtils
 import com.huolala.mockgps.manager.SearchManager
-import com.huolala.mockgps.manager.utils.MapConvertUtils
-import com.huolala.mockgps.manager.utils.MapDrawUtils
 import com.huolala.mockgps.model.MockMessageModel
 import com.huolala.mockgps.model.NaviType
 import com.huolala.mockgps.model.PoiInfoModel
@@ -22,7 +19,6 @@ import com.huolala.mockgps.server.GpsService
 import com.huolala.mockgps.utils.LocationUtils
 import com.huolala.mockgps.utils.MMKVUtils
 import com.huolala.mockgps.utils.Utils
-import kotlinx.android.synthetic.main.layout_navi_card.radio_multi_route
 
 /**
  * @author jiayu.liu

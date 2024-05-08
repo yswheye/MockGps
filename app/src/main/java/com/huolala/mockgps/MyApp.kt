@@ -8,7 +8,6 @@ import android.os.Build
 import com.baidu.location.LocationClient
 import com.baidu.mapapi.CoordType
 import com.baidu.mapapi.SDKInitializer
-import com.blankj.utilcode.util.ClickUtils
 import com.blankj.utilcode.util.Utils
 import com.castiel.common.BaseApp
 import me.weishu.reflection.Reflection

@@ -1,12 +1,11 @@
 package com.huolala.mockgps.adaper
 
-import androidx.recyclerview.widget.RecyclerView
-
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Rect
 import android.view.View
+import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ItemDecoration
 import com.blankj.utilcode.util.ConvertUtils
 import com.huolala.mockgps.R

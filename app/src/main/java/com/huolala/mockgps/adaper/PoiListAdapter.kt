@@ -8,7 +8,8 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.baidu.mapapi.search.sug.SuggestionResult
 import com.huolala.mockgps.R
-import kotlinx.android.synthetic.main.item_poiinfo.view.*
+import kotlinx.android.synthetic.main.item_poiinfo.view.tv_item_poi_address
+import kotlinx.android.synthetic.main.item_poiinfo.view.tv_item_poi_name
 
 /**
  * @author jiayu.liu

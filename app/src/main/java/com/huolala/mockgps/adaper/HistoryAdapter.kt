@@ -9,7 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.huolala.mockgps.R
 import com.huolala.mockgps.model.MockMessageModel
 import com.huolala.mockgps.model.NaviType
-import kotlinx.android.synthetic.main.item_history.view.*
+import kotlinx.android.synthetic.main.item_history.view.tv_info
+import kotlinx.android.synthetic.main.item_history.view.tv_poi_name
 import java.util.concurrent.CopyOnWriteArrayList
 
 

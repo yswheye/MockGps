@@ -18,8 +18,7 @@ import com.huolala.mockgps.R
 import com.huolala.mockgps.databinding.ActivityGuideBinding
 import com.huolala.mockgps.server.GpsService
 import com.huolala.mockgps.utils.Utils
-import kotlinx.android.synthetic.main.activity_guide.*
-import java.lang.Exception
+import kotlinx.android.synthetic.main.activity_guide.btn_go
 
 /**
  * @author jiayu.liu

@@ -11,13 +11,17 @@ import android.text.TextWatcher
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import com.baidu.mapapi.map.*
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.baidu.mapapi.map.BaiduMap
+import com.baidu.mapapi.map.MapStatus
+import com.baidu.mapapi.map.MapStatusUpdateFactory
 import com.baidu.mapapi.model.LatLng
 import com.baidu.mapapi.search.core.SearchResult
-import com.baidu.mapapi.search.geocode.*
-import com.huolala.mockgps.model.PoiInfoModel
-
-import androidx.recyclerview.widget.LinearLayoutManager
+import com.baidu.mapapi.search.geocode.GeoCodeResult
+import com.baidu.mapapi.search.geocode.GeoCoder
+import com.baidu.mapapi.search.geocode.OnGetGeoCoderResultListener
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeOption
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult
 import com.baidu.mapapi.search.sug.OnGetSuggestionResultListener
 import com.baidu.mapapi.search.sug.SuggestionResult
 import com.baidu.mapapi.search.sug.SuggestionSearch
@@ -33,8 +37,18 @@ import com.huolala.mockgps.adaper.SimpleDividerDecoration
 import com.huolala.mockgps.databinding.ActivityPickBinding
 import com.huolala.mockgps.manager.FollowMode
 import com.huolala.mockgps.manager.MapLocationManager
+import com.huolala.mockgps.model.PoiInfoModel
 import com.huolala.mockgps.model.PoiInfoType
-import kotlinx.android.synthetic.main.activity_pick.*
+import kotlinx.android.synthetic.main.activity_pick.confirm_location
+import kotlinx.android.synthetic.main.activity_pick.et_search
+import kotlinx.android.synthetic.main.activity_pick.et_search_city
+import kotlinx.android.synthetic.main.activity_pick.iv_cur_location
+import kotlinx.android.synthetic.main.activity_pick.iv_search
+import kotlinx.android.synthetic.main.activity_pick.ll_search
+import kotlinx.android.synthetic.main.activity_pick.mapview
+import kotlinx.android.synthetic.main.activity_pick.recycler
+import kotlinx.android.synthetic.main.activity_pick.tv_lonlat
+import kotlinx.android.synthetic.main.activity_pick.tv_poi_name
 import java.lang.ref.WeakReference
 
 

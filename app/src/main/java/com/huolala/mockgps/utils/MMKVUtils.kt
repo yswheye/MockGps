@@ -1,9 +1,9 @@
 package com.huolala.mockgps.utils
 
 import com.google.gson.Gson
-import com.tencent.mmkv.MMKV
 import com.google.gson.reflect.TypeToken
 import com.huolala.mockgps.model.MockMessageModel
+import com.tencent.mmkv.MMKV
 import java.lang.reflect.Type
 import java.util.concurrent.CopyOnWriteArrayList
 
