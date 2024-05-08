@@ -9,6 +9,6 @@ dependencyResolutionManagement {
         maven { url "https://jitpack.io" }
     }
 }
-rootProject.name = "MockGps"
+rootProject.name = "GPP"
 include ':app'
 include ':common'
